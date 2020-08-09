@@ -61,8 +61,8 @@ pip3 install prettytable
 ```
 cd到featurescanner文件夹下, 执行
 ```
-python3 featureScanner.py -s /<default_args_class.py的地址> -t <default_args_class.py.html的地址>
-(如 python3 featureScanner.py -s /home/xu/Downloads/default_args_class.py -t /home/xu/pysonar/pysonar2/html/default_args_class.py.html)
+python3 featureScanner.py -s /<default_args_class.py的地址> -t <default_args_class.py.html的地址> -f config.ini -l standard_res
+(如 python3 featureScanner.py -s /home/xu/Downloads/default_args_class.py -t /home/xu/pysonar/pysonar2/html/default_args_class.py.html -f config.ini -l standard_res)
 ```
 成功生成表格
 
